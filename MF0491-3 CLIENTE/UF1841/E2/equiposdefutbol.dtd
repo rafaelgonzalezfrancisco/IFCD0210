@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- DTD generado con XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) generiado por rafael gonzalez -->
+<!-- DTD generado con XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) -->
 <!ELEMENT ciudad (#PCDATA)>
 <!ELEMENT equipo (nombre, ciudad, jugadores)>
 <!ELEMENT nombre (#PCDATA)>
