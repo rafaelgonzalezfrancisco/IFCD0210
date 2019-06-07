@@ -1,0 +1,39 @@
+body{
+	background-color: #B1C6D4;
+	font-family: arial;
+}
+
+
+div > a{
+	color:red;
+	font-weight: bold;
+}
+h4 > p{
+     color:#1252B1;
+     font-style: italic;
+}
+
+p > a{
+	font-style: normal;
+	font-weight: 200;
+}
+
+a + a{
+      color:#5AB353;
+     font-style: normal;
+}
+
+h4 + a{
+	color:#DC5CCE;
+}
+
+li ~ li {
+	color:#E91A1A;
+}
+#lista3  ~ li {
+    color:#DF7171;
+}
+
+#sublista > li{
+     color:#4463BD;
+}
