@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD generado con XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) -->
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT equipo (ciudad, estadio, socios, jugadores)>
+<!ATTLIST equipo
+	nomequi CDATA #REQUIRED
+>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT socios (#PCDATA)>
+<!ELEMENT estadio (#PCDATA)>
+<!ELEMENT jugador (nombre, nacionalidad)>
+<!ATTLIST jugador
+	equi (albacete | laspalmas | tenerife) #REQUIRED
+	posicion (centrocampista | defensa | delantero | portero) #REQUIRED
+>
+<!ELEMENT jugadores (jugador+)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ELEMENT equiposdefutbol (equipo+)>
+<!ATTLIST equiposdefutbol
+	xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+	xmlns:xsi CDATA #FIXED "http://www.w3.org/2001/XMLSchema-instance"
+>
