@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="./xsl/equiposdefutbol.xsl"?>
-<equiposdefutbol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Alumnos/Documents/practica%20E2/xsd-dtd/equiposdefutbol.xsd">
+<equiposdefutbol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./xsd-dtd/equiposdefutbol.xsd">
 	<equipo nomequi="CD Tenerife">
 		<ciudad>S/C de Tenerife</ciudad>
 		<estadio>Heliodoro Rodríguez López</estadio>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- DTD generado con XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) -->
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT datos (#PCDATA)>
 <!ELEMENT ciudad (#PCDATA)>
 <!ELEMENT equipo (ciudad, estadio, socios, jugadores)>
 <!ATTLIST equipo
@@ -9,7 +11,7 @@
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT socios (#PCDATA)>
 <!ELEMENT estadio (#PCDATA)>
-<!ELEMENT jugador (nombre, nacionalidad)>
+<!ELEMENT jugador (nombre, nacionalidad, foto, datos)>
 <!ATTLIST jugador
 	equi (albacete | laspalmas | tenerife) #REQUIRED
 	posicion (centrocampista | defensa | delantero | portero) #REQUIRED
