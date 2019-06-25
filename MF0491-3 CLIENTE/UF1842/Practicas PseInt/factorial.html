@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>SIN_TITULO</TITLE>
+	</HEAD>
+	<BODY onload="sin_titulo();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			function factorial(x) {
+				var i, resultado;
+				resultado = 1;
+				for (i=1;i<=x;i+=1) {
+					resultado = resultado*i;
+				}
+				return resultado;
+			}
+			
+			
+				var x;
+				document.write("inserte un número: ",'<BR/>');
+				x = prompt();
+				document.write("El factorial es: ",factorial(x),'<BR/>');
+		
+			
+		</SCRIPT>
+	</BODY>
+</HTML>

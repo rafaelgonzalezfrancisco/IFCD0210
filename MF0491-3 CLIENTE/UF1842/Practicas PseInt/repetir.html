@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>ALUMNO</TITLE>
+	</HEAD>
+	<BODY onload="alumno();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			function alumno() {
+				var nota, respuesta;
+				// dato de entrada
+				nota = 0;
+				respuesta = "";
+				do {
+					document.write("inserte una nota: ",'<BR/>');
+					nota = Number(prompt());
+					if (nota<0 || nota>10) {
+						document.write("error el valor entre 0 y 10",'<BR/>');
+					}
+					if (nota>=5 && nota<=10) {
+						document.write("Estas aprobado",'<BR/>');
+					} else {
+						if (nota>=0 && nota<=5) {
+							document.write("estas suspendido",'<BR/>');
+						}
+					}
+					document.write("Desea continuar con las notas: (si/no)",'<BR/>');
+					respuesta = prompt();
+				} while (respuesta!="no");
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- W3C Schema generado con XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ciudad">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Albacete"/>
+				<xs:enumeration value="Las Palmas de Gran Canaria"/>
+				<xs:enumeration value="S/C de Tenerife"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="datos">
+		<xs:simpleType>
+			<xs:restriction base="xs:anyURI">
+				<xs:enumeration value="https://www.laliga.es/jugador/a-arroyo"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/acuna"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/alberto"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/araujo"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/ballou-tabla"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/cala"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/camille"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/caro-1"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/dani-hernandez"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/daniel-torres"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/david-garcia-s"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/de-la-bella"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/deivid"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/eugeni"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/fran-garcia"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/hector-hernandez"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/javi-castellano"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/luis-perez"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/malbasic"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/milla-1"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/nano-1"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/nicolas-gorosito"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/p228611-28917180704"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/paco-montanes"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/penalba"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/raul"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/roman-zozulya"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/ruben-castro"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/ruiz-de-galarreta"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/santiago-gentiletti"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/slavoljub-srnic"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/sulley-muntari"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/susaeta-1"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/suso-santana"/>
+				<xs:enumeration value="https://www.laliga.es/jugador/tomas-pekhart"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="equipo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ciudad"/>
+				<xs:element ref="estadio"/>
+				<xs:element ref="socios"/>
+				<xs:element ref="jugadores"/>
+			</xs:sequence>
+			<xs:attribute name="nomequi" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="Albacete Balompié SAD"/>
+						<xs:enumeration value="CD Tenerife"/>
+						<xs:enumeration value="UD Las Palmas"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="equiposdefutbol">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="equipo" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="estadio">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Carlos Belmonte"/>
+				<xs:enumeration value="Estadio de Gran Canaria"/>
+				<xs:enumeration value="Heliodoro Rodríguez López"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="foto">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="acuna.jpg"/>
+				<xs:enumeration value="alberto.jpg"/>
+				<xs:enumeration value="araujo.jpg"/>
+				<xs:enumeration value="arroyo.jpg"/>
+				<xs:enumeration value="ballou.jpg"/>
+				<xs:enumeration value="caro.jpg"/>
+				<xs:enumeration value="dani.jpg"/>
+				<xs:enumeration value="danitorres.jpg"/>
+				<xs:enumeration value="david.jpg"/>
+				<xs:enumeration value="davidomar.jpg"/>
+				<xs:enumeration value="eugeni.jpg"/>
+				<xs:enumeration value="filip.jpg"/>
+				<xs:enumeration value="francisco.jpg"/>
+				<xs:enumeration value="gabriel.jpg"/>
+				<xs:enumeration value="gentileti.jpg"/>
+				<xs:enumeration value="gorosito.jpg"/>
+				<xs:enumeration value="hector.jpg"/>
+				<xs:enumeration value="inigoruiz.jpg"/>
+				<xs:enumeration value="javicastellano.jpg"/>
+				<xs:enumeration value="josemanuel.jpg"/>
+				<xs:enumeration value="juantorres.jpg"/>
+				<xs:enumeration value="luismilla.jpg"/>
+				<xs:enumeration value="luisperez.jpg"/>
+				<xs:enumeration value="muntari.jpg"/>
+				<xs:enumeration value="nano.jpg"/>
+				<xs:enumeration value="raul.jpg"/>
+				<xs:enumeration value="roman.jpg"/>
+				<xs:enumeration value="rubencastro.jpg"/>
+				<xs:enumeration value="samuel.jpg"/>
+				<xs:enumeration value="slavol.jpg"/>
+				<xs:enumeration value="susaeta.jpg"/>
+				<xs:enumeration value="susosantana.jpg"/>
+				<xs:enumeration value="tomas.jpg"/>
+				<xs:enumeration value="uros.jpg"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="jugador">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre"/>
+				<xs:element ref="nacionalidad"/>
+				<xs:element ref="foto"/>
+				<xs:element ref="datos"/>
+			</xs:sequence>
+			<xs:attribute name="equi" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="albacete"/>
+						<xs:enumeration value="laspalmas"/>
+						<xs:enumeration value="tenerife"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="posicion" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="centrocampista"/>
+						<xs:enumeration value="defensa"/>
+						<xs:enumeration value="delantero"/>
+						<xs:enumeration value="portero"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="jugadores">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="jugador" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nacionalidad">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="argentina"/>
+				<xs:enumeration value="colombiana"/>
+				<xs:enumeration value="española"/>
+				<xs:enumeration value="francesa"/>
+				<xs:enumeration value="italana"/>
+				<xs:enumeration value="servia"/>
+				<xs:enumeration value="venezolana"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="nombre">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value=" Juan Gentiletti "/>
+				<xs:enumeration value="Alberto Jiménez"/>
+				<xs:enumeration value="Alberto de la Bella"/>
+				<xs:enumeration value="Alexander Mesa"/>
+				<xs:enumeration value="Ballou Jean-Yves"/>
+				<xs:enumeration value="Daniel Hernández"/>
+				<xs:enumeration value="Daniel Torres Rojas"/>
+				<xs:enumeration value="David García Santana"/>
+				<xs:enumeration value="David Omar Rodríguez"/>
+				<xs:enumeration value="Eugeni Valderrama"/>
+				<xs:enumeration value="Ezequiel Araujo"/>
+				<xs:enumeration value="Ezequiel Gorosito"/>
+				<xs:enumeration value="Filip Malbašić"/>
+				<xs:enumeration value="Francisco García"/>
+				<xs:enumeration value="Francisco Montañés"/>
+				<xs:enumeration value="Gabriel Martín"/>
+				<xs:enumeration value="Héctor Hernández"/>
+				<xs:enumeration value="Iñigo Ruiz de Galarreta"/>
+				<xs:enumeration value="Javi Castellano"/>
+				<xs:enumeration value="Javier Acuña Caballero"/>
+				<xs:enumeration value="Jesús Manuel Santana"/>
+				<xs:enumeration value="José Antonio Caro"/>
+				<xs:enumeration value="José Manuel García"/>
+				<xs:enumeration value="Juan Torres Ruiz"/>
+				<xs:enumeration value="Luis Jesús Pérez"/>
+				<xs:enumeration value="Luis Milla Manzanilla"/>
+				<xs:enumeration value="Néstor Susaeta"/>
+				<xs:enumeration value="Raúl Fernández"/>
+				<xs:enumeration value="Roman Zozulia"/>
+				<xs:enumeration value="Rubén Castro"/>
+				<xs:enumeration value="Samuel Geoffroy"/>
+				<xs:enumeration value="Slavoljub Srnić"/>
+				<xs:enumeration value="Sulleyman Muntari"/>
+				<xs:enumeration value="Tomas Pekhart"/>
+				<xs:enumeration value="Uroš Račić Lesct"/>
+				<xs:enumeration value="Álvaro Arroyo"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="socios">
+		<xs:simpleType>
+			<xs:restriction base="xs:decimal">
+				<xs:enumeration value="13.856"/>
+				<xs:enumeration value="15.49"/>
+				<xs:enumeration value="18.456"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

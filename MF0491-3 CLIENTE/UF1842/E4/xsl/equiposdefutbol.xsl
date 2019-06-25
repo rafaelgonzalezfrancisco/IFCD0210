@@ -57,9 +57,15 @@
 					<h4 class="card-text text-light">Nº de socios: <xsl:value-of select="socios"/></h4>
                   </div>
           </div>
+        
         </div>
 	</div>
 </xsl:for-each>
+
+ <div id="mireproductor" class="container">
+        <!-- Webamp will attempt to center itself within this div -->
+  </div>
+   
 </div>
 
 <!--Parte de los jugadores-->
@@ -69,7 +75,7 @@
          <div class="row">
 		  
 	         <xsl:for-each select="/equiposdefutbol/equipo/jugadores/jugador[@equi='tenerife']">
-	         	 <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-4">-->
+	         	 <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-4">
 				    <div class="card">
 							<img class="card-img-top" alt="CD Tenerife">
 							<xsl:attribute name="src">
@@ -87,7 +93,7 @@
 								</a>
 							</div>
 						</div>	 
-			    <!--</div>-->
+			    </div>
 	         </xsl:for-each>
 
 						
@@ -221,6 +227,21 @@
 		</div>
 </div>
 </footer>
+
+ <script src="./js/webamp.bundle.js"></script>
+    <script>
+        const Webamp = window.Webamp;
+        new Webamp({
+           initialTracks:[
+           {url: "./himnos/albacete.ogg"},
+           {url: "./himnos/Tenerife.ogg"},
+           {url: "./himnos/laspalmas.ogg"}
+           ],
+          
+        }).renderWhenReady(document.getElementById('mireproductor'));
+     
+    </script>
+
 </body>
 </html>
 </xsl:template>
