@@ -245,6 +245,9 @@
             {url: "./skins/Vizor1-01.wsz", name:"Vizor 1.01" },
             {url: "./skins/XMMS-Turquoise.wsz", name:"XMMS Turquoise" },
             {url: "./skins/ZaxonRemake1-0.wsz", name:"ZaxonRemake 1.0" },
+            {url: "./skins/Digitanium2.wsz", name:"Digitanium 2.0" },
+            {url: "./skins/Digitanium3.wsz", name:"Digitanium 2.0" },
+            {url: "./skins/Digitanium4.wsz", name:"Digitanium 3.0" },
             ],
 
            initialTracks:[
@@ -255,7 +258,7 @@
            ],
 
             initialSkin: 
-            {url: "./skins/TopazAmp1-2.wsz"}
+            {url: "./skins/Digitanium2.wsz"}
              
           
         }).renderWhenReady(document.getElementById('mireproductor'));
