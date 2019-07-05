@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Liga 123</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Cabecera logo y texto-->
+    <header>
+        <div id="mireproductor"></div>
+        <div class="container mt-4 mb-5">
+         <div class="row">
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="./img/logo4.gif" class="img-fluid text-center logo" alt="Logo Liga 123"></img>
+        </div>
+        <div class="d-none d-md-block col-md-8 col-lg-9 mt-5">
+                <h1 class="text-center mt-4 titulo">Equipo de la semana</h1>
+                <h5 class="text-center titulomed">La Liga 1|2|3</h5>
+        </div>
+        <div class="col-xs-12 col-sm-6 d-md-none mt-5">
+            <p class="titulopeq text-center">Equipo de la semana</p>
+        </div>
+         </div>
+        </div>
+       
+    </header>
+
+   
+<!--Slider de fotos-->
+
+     <section class="bg-info p-5">
+         <div class="row justify-content-center">
+             
+            <h4 class="titulomed text-light">La jornada en imágenes</h4>
+         </div>
+          <div class="row justify-content-center">
+              <div class="col-12 col-md-5 border border-light rounded-pill">
+                 <img name="slide" class="img-fluid rounded-pill p-3" src="img/1.jpg"></img>
+             </div>
+          </div>
+          <div class="row justify-content-center">
+              <button class="btn btn-danger mt-5" id="imagenes">Imágenes de la jornada</button>
+          </div>
+     </section>
+
+     <!--Botones para los jugadores y el winamp-->
+       <section class="container mt-5">
+         <div class="jumbotron bg-white">
+            <h1 class="display-4">¡¡Descubre al equipo Mahou!!</h1>
+            <p class="lead">Los mejores jugadores según las encuestas de los usuarios y profesionales</p>
+            <hr class="my-4">
+            <p>Pincha en los botones para descubrir al equipo y sus himnos</p>
+            <a class=" btn btn-primary  " href="#" id="boton">Descubre los jugadores</a>
+            <a class=" btn btn-danger " href="#" id="musica">Oye sus himnos</a>
+            <img src="img/logo_laliga123_negro.png" class="img-fluid my-4 ml-5"></img>
+         </div>
+        </section>
+
+
+
+   <!-- Prueba de navegación con botones. No borrar
+
+    <nav class="justify-content-center my-5 bg-secondary p-5">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link btn btn-primary  m-1 my-5" href="#" id="boton">Descubre los jugadores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-danger m-1 my-5" href="#" id="musica">Oye sus himnos</a>
+            </li>
+            <li class="nav-item">
+                 <img src="img/logo-laliga-web-90a.png" class="img-fluid my-4 ml-5"></img>
+            </li>
+        </ul>
+    </nav>
+    -->
+
+
+    <!--Carga de jugadores-->
+    <section class="container-fluid bg-info ">
+        <div class="container bg-info">
+        <div class="row  " id="jugadores">
+
+        </div>
+        </div>
+    </section>
+    
+
+    <!--Video  y audio-->
+    <section class="container-fluid bg-info my-5">
+            <h1 class="display-4 p-5 text-white text-center">Área Multimedia</h1>
+    </section>
+
+    <section class="container mt-5">
+        <div class="row">
+           <div class="card my-3 p-5" >
+               <div class="row no-gutters">
+                   <div class="col-md-4">
+                      <div class="embed-responsive embed-responsive-16by9">
+                          <iframe width="400" height="230" src="https://www.youtube.com/embed/tec5oB4Bbic" frameborder="0"
+                           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                        </div>
+                        
+                   </div>
+                   
+                   <div class="col-md-8">
+                       <div class="card-body">
+                           <h5 class="card-title">Video de la semana</h5>
+                           <p class="card-text">Tal día como hoy, el CD Tenerife certificó su ascenso a la máxima
+                               división del fútbol español en el Estadio Benito Villamarín de Sevilla. Los jugadores de
+                               Benito Joanet supieron aguantar el resultado conseguido en el Heliodoro ante un equipo
+                               plagado de jugadores internacionales. </p>
+                           <p class="card-text"><small class="text-muted">Historia CD Tenerife</small></p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+        
+    </section>
+
+    <section class="container">
+        <div class="row">
+             <div class="card my-3 p-5" >
+                 <div class="row no-gutters">
+                     <div class="col-md-8">
+                         <div class="card-body">
+                             <h5 class="card-title">Audio de la semana</h5>
+                             <p class="card-text">Cristo Marrero, entrenador del Juvenil del CD Tenerife, habló en
+                                 Directo Marca sobre su vuelta a la cadena de filiales. Después de cosechar grandes victorias para el equipo.
+                                  ¡No te lo pierdas!</p>
+                             <p class="card-text"><small class="text-muted">CD Tenerife Radio Marca</small></p>
+                         </div>
+                     </div>
+                      <div class="col-md-4">
+                           <div class="mt-5 mr-2">
+                          <iframe width="75%" height="200" frameborder="0" allowfullscreen="" scrolling="no"
+                              src="https://www.ivoox.com/player_ej_37674652_2_1.html?data=lJyjmZmaeZOhhpywj5aXaZS1k5uah5yncZOhhpywj5WRaZi3jpWah5yncZOrjpWjj5eUdZqfpNfW1dnTb67V09fS1NSRaZi3jrfOxs7Tb67V08jOjbnJssbmysvSj4qbh46o&">
+                          </iframe>
+                          </div>
+                      </div>
+                 </div>
+             </div>
+
+
+
+
+           
+        </div>
+    </section>
+
+
+    <footer>
+            <div class="row bg-secondary mt-5  p-5">
+                  <div class="col-lg-10 col-md-8 col-sm-2 col-2 text-left">
+                  <a href="#top" ><img src="./img/flecha.png"></img></a>
+                  </div>
+                    <div class=" text-right  col-lg-2 col-md-4 col-sm-10 col-10">
+                        <h3>Curso IFCD0210</h3>
+                        <h4>Examen E4 UF1842</h4>
+                        <p>Rafael M. Glez Francisco</p>
+                    </div>
+            </div>
+    </footer>
+<script src="./js/mijavascript.js"></script>
+<script src="./js/webamp.bundle.js"></script>
+</body>
+</html>

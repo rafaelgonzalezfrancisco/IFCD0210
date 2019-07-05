@@ -1,0 +1,91 @@
+[
+   {
+     "nombre": "Daniel Hernández",
+     "puesto": "Portero",
+     "foto": "dani.jpg",
+     "datos": "https://www.laliga.es/jugador/dani-hernandez",
+     "equipo" : "CD Tenerife"
+
+   },
+   {
+    "nombre": "Luis Jesús Pérez",
+    "puesto": "Defensa",
+    "foto": "luisperez.jpg",
+    "datos": "https://www.laliga.es/jugador/luis-perez",
+    "equipo" : "CD Tenerife"
+    },
+    {
+    "nombre": "Alberto de la Bella",
+    "puesto": "Defensa",
+    "foto": "alberto.jpg",
+    "datos": "https://www.laliga.es/jugador/de-la-bella",
+    "equipo" : "UD Las Palmas"
+    },
+    {
+    "nombre": "David García Santana",
+    "puesto": "Defensa",
+    "foto": "david.jpg",
+    "datos": "https://www.laliga.es/jugador/david-garcia-s",
+    "equipo" : "UD Las Palmas"
+    },
+    {
+    "nombre": "Álvaro Arroyo",
+    "puesto": "Defensa",
+    "foto": "arroyo.jpg",
+    "datos": "https://www.laliga.es/jugador/a-arroyo",
+    "equipo" : "Albacete SAD"
+    },
+
+    {
+    "nombre": "Sulleyman Muntari",
+    "puesto": "Centrocampista",
+    "foto": "muntari.jpg",
+    "datos": "https://www.laliga.es/jugador/sulley-muntari",
+    "equipo" : "Albacete SAD"
+    },
+    {
+    "nombre": "Néstor Susaeta",
+    "puesto": "Centrocampista",
+    "foto": "susaeta.jpg",
+    "datos": "https://www.laliga.es/jugador/susaeta-1",
+    "equipo" : "Albacete SAD"
+    },
+    {
+    "nombre": "Gabriel Martín",
+    "puesto": "Centrocampista",
+    "foto": "gabriel.jpg",
+    "datos": "https://www.laliga.es/jugador/penalba",
+    "equipo" : "UD Las Palmas"
+    },
+    {
+    "nombre": "Juan Torres Ruiz",
+    "puesto": "Centrocampista",
+    "foto": "juantorres.jpg",
+    "datos": "https://www.laliga.es/jugador/cala",
+    "equipo" : "UD Las Palmas"
+    },
+    {
+    "nombre": "Francisco Montañés",
+    "puesto": "Centrocampista",
+    "foto": "francisco.jpg",
+    "datos": "https://www.laliga.es/jugador/paco-montanes",
+    "equipo" : "CD Tenerife"
+    },
+
+    {
+    "nombre": "Alexander Mesa",
+    "puesto": "Delantero",
+    "foto": "nano.jpg",
+    "datos": "https://www.laliga.es/jugador/nano-1",
+    "equipo" : "CD Tenerife"
+    },
+    {
+    "nombre": "Filip Malbašić",
+    "puesto": "Delantero",
+    "foto": "filip.jpg",
+    "datos": "https://www.laliga.es/jugador/malbasic",
+    "equipo" : "CD Tenerife"
+    }
+
+
+]

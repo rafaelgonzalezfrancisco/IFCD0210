@@ -248,6 +248,10 @@
             {url: "./skins/Digitanium2.wsz", name:"Digitanium 2.0" },
             {url: "./skins/Digitanium3.wsz", name:"Digitanium 2.0" },
             {url: "./skins/Digitanium4.wsz", name:"Digitanium 3.0" },
+            {url: "./skins/Nike_2005.wsz", name:"Nike 5.0"},
+            {url: "./skins/MoonSilver.wsz", name:"Moon Silver"},
+            {url: "./skins/Paradox.wsz", name:"Paradox"},
+           
             ],
 
            initialTracks:[
@@ -258,7 +262,7 @@
            ],
 
             initialSkin: 
-            {url: "./skins/Digitanium2.wsz"}
+            {url: "./skins/Nike_2005.wsz"}
              
           
         }).renderWhenReady(document.getElementById('mireproductor'));
