@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es"> <!--Definición del idioma. Pauta de accesibilidad-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La Liga Genuine</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header>
+        <a name="top"></a>
+        <nav class="blue darken-2">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo center"><img src="./img/logo3.png"
+                        alt="Logo de la Liga Genuine"></img> </a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="quees.html">Qué es</a></li>
+                    <li><a href="actualidad.html">Actualidad</a></li>
+                    <li><a href="resumenes.html">Resúmenes</a></li>
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1"><i class="material-icons">search</i></a>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Menu del sidebar-->
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="quees.html">Qué es</a></li>
+            <li><a href="actualidad.html">Actualidad</a></li>
+            <li><a href="resumenes.html">Resúmenes</a></li>
+            <a class="waves-effect waves-light btn modal-trigger" href="#modal1"><i class="material-icons">search</i></a>
+        </ul>
+
+         <!-- Modal -->
+     <div id="modal1" class="modal">
+        <div class="modal-content">
+            <nav>
+                <div class="nav-wrapper">
+                  <form>
+                    <div class="input-field">
+                      <input id="search" type="search" required>
+                      <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                      <i class="material-icons">close</i>
+                    </div>
+                  </form>
+                </div>
+              </nav>
+        </div>
+       
+      </div>
+
+        <!--Menú flotante accesible-->
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large black">
+                <i class="material-icons" style="color:yellow;">accessible</i>
+            </a>
+            <ul>
+                <li><a class="btn-floating black" id="visibilidad"><i class="material-icons"
+                            style="color:yellow;">visibility</i></a></li>
+                <li><a class="btn-floating black" id="aumentar"><i class="material-icons"
+                            style="color:yellow;">zoom_in</i></a>
+                </li>
+                <li><a class="btn-floating black" id="reducir"><i class="material-icons"
+                            style="color:yellow;">zoom_out</i></a>
+                </li>
+                <li><a class="btn-floating black" id="mayuscula"><i class="material-icons"
+                            style="color:yellow;">spellcheck</i></a></li>
+            </ul>
+        </div>
+
+
+    </header>
+    <section>
+        <nav class="white">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="col s12">
+                        <a href="index.html" class="breadcrumb">Index</a>
+                        <a href="mapa.html" class="breadcrumb">Mapa del sitio</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+ <div class="row center">
+
+     <h1 class="orange-text text-darken-4">Mapa del sitio</h1>
+ </div>
+
+    <section class="container">
+       <div class="row">
+          <div class="col s12 m4 ">
+            <ul class="collection with-header">
+                <li class="collection-header">
+                     <div> <a href="#quees.html"> <h4>Index</h4></a> </div>
+                </li>
+                <li class="collection-item center">
+                    <div>Qué es<a href="#quees.html" class="secondary-content"><i class="material-icons">send</i></a></div>
+                </li>
+                <li class="collection-item center">
+                    <div>Actualidad<a href="actualidad.html" class="secondary-content"><i class="material-icons">send</i></a></div>
+                </li>
+                <li class="collection-item center">
+                    <div>Resúmenes<a href="resumenes.html" class="secondary-content"><i class="material-icons">send</i></a></div>
+                </li>
+                <li class="collection-item center">
+                    <div>Mapa del sitio<a href="mapa.html" class="secondary-content"><i class="material-icons">send</i></a></div>
+                </li>
+            </ul>
+
+          </div>
+       </div>
+    </section>
+
+
+
+    <footer class="coco margin-top">
+
+            <div class="row pading-top">
+                <div class="col s12 m2">
+                    <a href="#top"><i class="material-icons flecha medium">present_to_all</i></a>
+                </div>
+                <div class="col s12 m2  ">
+                    <a href="mapa.html" class="breadcrumb ">Mapa del sitio</a>
+                </div>
+                <div class="col s12 m4">
+                        <a href="http://www.w3.org/WAI/WCAG1A-Conformance" title="Explicación del Nivel A de Conformidad"> <img height="32" width="88" src="https://www.w3.org/WAI/WCAG21/wcag2.1A-v.png"
+                            alt="Icono de conformidad con el Nivel A, 
+                            de las Directrices de Accesibilidad para 
+                            el Contenido Web 1.0 del W3C-WAI">
+                        </a>
+                        <a href="http://www.w3.org/WAI/WCAG1AA-Conformance"
+                        title="Explicación del Nivel Doble-A de 
+                        Conformidad">
+                        <img height="32" width="88" 
+                        src="https://www.w3.org/WAI/WCAG21/wcag2.1AA-v.png"
+                        alt="Icono de conformidad con el Nivel Doble-A, 
+                        de las Directrices de Accesibilidad para el 
+                        Contenido Web 1.0 del W3C-WAI">
+                    </a>
+                
+                    <a href="http://www.w3.org/WAI/WCAG1AAA-Conformance"
+                        title="Explicación del Nivel Triple-A de 
+                        Conformidad">
+                        <img height="32" width="88" 
+                        src="https://www.w3.org/WAI/WCAG21/wcag2.1AAA-v.png"
+                        alt="Icono de conformidad con el Nivel Triple-A, 
+                        de las Directrices de Accesibilidad para el 
+                        Contenido Web 1.0 del W3C-WAI">
+                    </a>
+        
+        
+                </div>
+                <div class="col s12 m4 right-align">
+                    <h4>Curso IFCD0210</h4>
+                    <h5>Práctica E6 UF1843</h5>
+                    <p>Rafael M. Glez Francisco</p>
+                </div>
+            </div>
+        
+          
+        </footer>
+
+
+
+    <script type="text/javascript" src="./js/materialize.js"></script>
+    <script type="text/javascript" src="./js/mijavascript.js"></script>
+    </body>
+
+    </html>
